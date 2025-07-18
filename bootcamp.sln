@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootcamp.API", "Bootcamp.API", "{4FB1591D-EEAC-43E1-8767-426E97AD7A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mininal-api", "Bootcamp.API\Api\mininal-api.csproj", "{0196DDBD-DE4B-4FEC-9516-97C07296AC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Bootcamp.API\Test\Test.csproj", "{4D52D3CF-35D9-4969-8E14-99AC4D6595AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0196DDBD-DE4B-4FEC-9516-97C07296AC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0196DDBD-DE4B-4FEC-9516-97C07296AC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0196DDBD-DE4B-4FEC-9516-97C07296AC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0196DDBD-DE4B-4FEC-9516-97C07296AC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D52D3CF-35D9-4969-8E14-99AC4D6595AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D52D3CF-35D9-4969-8E14-99AC4D6595AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D52D3CF-35D9-4969-8E14-99AC4D6595AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D52D3CF-35D9-4969-8E14-99AC4D6595AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0196DDBD-DE4B-4FEC-9516-97C07296AC99} = {4FB1591D-EEAC-43E1-8767-426E97AD7A89}
+		{4D52D3CF-35D9-4969-8E14-99AC4D6595AF} = {4FB1591D-EEAC-43E1-8767-426E97AD7A89}
+	EndGlobalSection
+EndGlobal
