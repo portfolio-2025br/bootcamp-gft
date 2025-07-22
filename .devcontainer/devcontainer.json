@@ -1,0 +1,33 @@
+{
+  "name": "C# (.NET)",
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind"
+  ],
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "net8"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "vscode-icons-team.vscode-icons"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "5000": {
+      "label": "Hello Remote World",
+      "onAutoForward": "notify"
+    },
+    "5001": {
+      "protocol": "https"
+    }
+  }
+}
