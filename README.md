@@ -65,7 +65,7 @@ Sou pós graduado em Engenharia de Software, moro no Vale do Paraíba e tenho du
 - Microsoft Certified: Azure Fundamentals
 - Microsoft Certified: Azure Data Fundamentals
 
-[Veja todos meus badges](https://www.credly.com/users/claudioandre-br).
+[Veja todos meus badges neste link](https://www.credly.com/users/claudioandre-br).
 
 <div id="header" align="center">
 
