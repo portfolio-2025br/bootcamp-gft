@@ -9,9 +9,11 @@
 
 [![Licença][shieldLicense]](LICENSE.txt)
 
-</div>
+Este repositório é parte do meu portfolio
 
-Work in Progress: este repositório foi concebido para ser usado como o meu portfolio.
+![WIP](images/WIP.png)
+
+</div>
 
 ## Índice
 
