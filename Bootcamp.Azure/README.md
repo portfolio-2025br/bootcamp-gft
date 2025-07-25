@@ -7,6 +7,7 @@ Este site contém os desafios do módulo lab "Introdução Cloud com Azure".
 Consulte as pastas:
 - [Desafio I](Desafio%20I/);
 - [Desafio II](Desafio%20II/);
+- [Desafio III](Desafio%20III/);
 
 ## Meu Endosso à Certificação AZ-900
 
